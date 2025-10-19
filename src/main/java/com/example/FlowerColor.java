@@ -1,10 +1,19 @@
 package com.example;
 
 public enum FlowerColor {
-    RED("#FF0000"), GREEN("#00FF00"), BLUE("#0000FF");
-    private String hexColor;
+    RED("#FF0000"),
+    WHITE("#FFFFFF"),
+    YELLOW("#FFFF00"),
+    PINK("#FFC0CB");
 
-    FlowerColor(String hexColor){
-        this.hexColor = hexColor;
+    private final String code;
+
+    FlowerColor(String code) {
+        this.code = code;
+    }
+
+    @Override
+    public String toString() {
+        return code;
     }
 }
