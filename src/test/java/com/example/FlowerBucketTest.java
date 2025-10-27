@@ -2,6 +2,12 @@ package com.example;
 
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
+
+import com.example.model.Flower;
+import com.example.model.FlowerBucket;
+import com.example.model.FlowerPack;
+import com.example.model.Rose;
+
 import org.junit.jupiter.api.Assertions;
 
 import java.util.Random;

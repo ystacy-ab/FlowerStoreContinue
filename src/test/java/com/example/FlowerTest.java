@@ -3,6 +3,9 @@ package com.example;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
+import com.example.model.Flower;
+import com.example.model.FlowerColor;
+
 import java.util.Random;
 
 import org.junit.jupiter.api.Assertions;
